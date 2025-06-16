@@ -1,4 +1,3 @@
-Great Kusuma! Here's a simple and clean `requirements.txt` file for your **mouse cursor control project**:
 
 ---
 
