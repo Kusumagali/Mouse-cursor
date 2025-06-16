@@ -1,18 +1,4 @@
-Thanks for sharing the screenshot, Kusuma! You're almost done — but I noticed your `README.md` could be improved for **readability and structure**.
 
----
-
-### 🔧 Issues in Current README
-
-* Text is not broken into sections (all content runs together).
-* No headings for **Features**, **Technologies Used**, etc.
-* It looks less professional without proper formatting.
-
----
-
-### ✅ Suggested Fix (Updated `README.md`)
-
-Replace your current `README.md` content with this:
 
 ````markdown
 # 🖱️ Mouse Cursor Control Using Color Object Detection
@@ -69,6 +55,5 @@ I’m a final-year B.Tech ECE student passionate about combining electronics and
 
 ---
 
-Would you like me to write a matching `requirements.txt` file too?
 
 
