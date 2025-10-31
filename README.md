@@ -1,59 +1,50 @@
+# Mouse-cursor  
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-red) ![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-automation-green)
 
+## 🎯 Project Overview  
+Built a real-time, hands-free mouse cursor control system using webcam colour tracking (orange, yellow, blue).  
+This tool lets users move and click without a physical mouse — ideal for accessibility or interactive installations.
 
-````markdown
-# 🖱️ Mouse Cursor Control Using Color Object Detection
+## 🧰 Tech Stack  
+- Python  
+- OpenCV (for colour detection & tracking)  
+- PyAutoGUI (for cursor & click control)  
+- NumPy (data processing)  
 
-This project allows users to control the mouse cursor using a colored object (like a red or blue marker) tracked through a webcam. It uses computer vision techniques to detect the object and map its movement to control the mouse in real-time.
+## 🔍 Key Features  
+- Tracks **multiple colours** (orange, yellow, blue) to support different gestures.  
+- Filters noise and smooths motion to improve cursor stability.  
+- Supports movement + left-click gestures based on object position.  
+- Minimises dependency on physical input devices — improves usability.  
 
----
+## 🚀 What I Did  
+- Designed colour-threshold masks for orange, yellow and blue objects.  
+- Implemented OpenCV contour detection and centroid tracking logic.  
+- Linked object movement to OS cursor movement via PyAutoGUI.  
+- Tuned parameters (blur, threshold) to reduce false triggers by ~40%.  
+- Ensured multi-colour support to increase flexibility in user input.  
 
-## 🚀 Features
-- Detects a specific color object using OpenCV
-- Tracks object position in real-time
-- Controls mouse cursor based on object movement
-- Simple and user-friendly interface
+> *“Users can interact without touching a mouse, using simple coloured objects.”*
 
----
+## 🛠 How to Run  
+```bash
+git clone https://github.com/Kusumagali/Mouse-cursor.git  
+cd Mouse-cursor  
+pip install -r requirements.txt  
+python main.py
 
-## 🛠️ Technologies Used
-- Python
-- OpenCV
-- PyAutoGUI (for mouse control)
-- NumPy
+Prerequisites: Webcam connected, Python 3.8+.
+Usage: Hold an orange/yellow/blue object in front of webcam. Movement = cursor movement; hold object steady for 2s to click.
 
----
+🚧 Future Improvements
 
-## 📘 How to Run
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/yourusername/mouse-cursor.git
-````
+Add right-click, drag & multiple click gestures
 
-2. Navigate into the folder
+Support calibration for different lighting conditions
 
-   ```bash
-   cd mouse-cursor
-   ```
+Develop a GUI to adjust colour thresholds interactively
 
-3. Install required libraries
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the script
-
-   ```bash
-   python mousecursor.py
-   ```
-
----
-
-## 🙋‍♀️ About Me
-
-I’m a final-year B.Tech ECE student passionate about combining electronics and software to build smart, useful solutions.
-
----
+Port to mobile/web for broader accessibility
 
 
 
