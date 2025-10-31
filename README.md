@@ -33,18 +33,19 @@ cd Mouse-cursor
 pip install -r requirements.txt  
 python main.py
 
-Prerequisites: Webcam connected, Python 3.8+.
-Usage: Hold an orange/yellow/blue object in front of webcam. Movement = cursor movement; hold object steady for 2s to click.
+```
+Prerequisites:
 
-##  🚧 Future Improvements
+Python 3.8+
 
-Add right-click, drag & multiple click gestures
+Webcam connected
 
-Support calibration for different lighting conditions
+Usage:
+Hold an orange, yellow, or blue object in front of the webcam.
 
-Develop a GUI to adjust colour thresholds interactively
+Moving object → moves cursor
 
-Port to mobile/web for broader accessibility
+Holding object still (~2 seconds) → triggers click
 
 
 
