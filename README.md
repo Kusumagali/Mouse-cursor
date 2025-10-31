@@ -34,7 +34,7 @@ pip install -r requirements.txt
 python main.py
 
 ```
-Prerequisites:
+**Prerequisites:**
 
 Python 3.8+
 
