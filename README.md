@@ -34,13 +34,14 @@ pip install -r requirements.txt
 python main.py
 
 ```
-**Prerequisites:**
+
+## prerequisites
 
 Python 3.8+
 
 Webcam connected
 
-Usage:
+## Usage
 Hold an orange, yellow, or blue object in front of the webcam.
 
 Moving object → moves cursor
