@@ -36,7 +36,7 @@ python main.py
 Prerequisites: Webcam connected, Python 3.8+.
 Usage: Hold an orange/yellow/blue object in front of webcam. Movement = cursor movement; hold object steady for 2s to click.
 
-🚧 Future Improvements
+##  🚧 Future Improvements
 
 Add right-click, drag & multiple click gestures
 
